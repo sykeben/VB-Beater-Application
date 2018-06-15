@@ -76,9 +76,9 @@ Partial Class Main
         '
         Me.MenuPanel.BackColor = System.Drawing.Color.WhiteSmoke
         Me.MenuPanel.Controls.Add(Me.InfoButton)
-        Me.MenuPanel.Location = New System.Drawing.Point(-1, 405)
+        Me.MenuPanel.Location = New System.Drawing.Point(0, 336)
         Me.MenuPanel.Name = "MenuPanel"
-        Me.MenuPanel.Size = New System.Drawing.Size(758, 26)
+        Me.MenuPanel.Size = New System.Drawing.Size(503, 26)
         Me.MenuPanel.TabIndex = 5
         '
         'SectionsPanel
@@ -90,7 +90,7 @@ Partial Class Main
         Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.Controls.Add(Me.LaunchElementGallery, 0, 0)
-        Me.SectionsPanel.Location = New System.Drawing.Point(12, 109)
+        Me.SectionsPanel.Location = New System.Drawing.Point(12, 104)
         Me.SectionsPanel.Name = "SectionsPanel"
         Me.SectionsPanel.RowCount = 5
         Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
@@ -98,14 +98,14 @@ Partial Class Main
         Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.SectionsPanel.Size = New System.Drawing.Size(732, 290)
+        Me.SectionsPanel.Size = New System.Drawing.Size(477, 221)
         Me.SectionsPanel.TabIndex = 6
         '
         'LaunchElementGallery
         '
         Me.LaunchElementGallery.Location = New System.Drawing.Point(3, 3)
         Me.LaunchElementGallery.Name = "LaunchElementGallery"
-        Me.LaunchElementGallery.Size = New System.Drawing.Size(140, 52)
+        Me.LaunchElementGallery.Size = New System.Drawing.Size(89, 38)
         Me.LaunchElementGallery.TabIndex = 0
         Me.LaunchElementGallery.Text = "Element" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Gallery"
         Me.LaunchElementGallery.UseVisualStyleBackColor = True
@@ -115,7 +115,7 @@ Partial Class Main
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 93)
+        Me.Label1.Location = New System.Drawing.Point(12, 88)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(62, 13)
         Me.Label1.TabIndex = 7
@@ -126,7 +126,7 @@ Partial Class Main
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(756, 430)
+        Me.ClientSize = New System.Drawing.Size(501, 361)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.SectionsPanel)
         Me.Controls.Add(Me.MenuPanel)

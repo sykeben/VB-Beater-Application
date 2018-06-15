@@ -128,7 +128,7 @@ Partial Class ElementGallery
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(608, 411)
+        Me.ClientSize = New System.Drawing.Size(583, 108)
         Me.Controls.Add(Me.LinkLabelElement)
         Me.Controls.Add(Me.LabelElement)
         Me.Controls.Add(Me.DateTimePickerElement)
