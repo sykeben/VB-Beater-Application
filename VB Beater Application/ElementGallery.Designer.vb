@@ -27,6 +27,7 @@ Partial Class ElementGallery
         Me.CheckBoxElement = New System.Windows.Forms.CheckBox()
         Me.CheckBoxUnchecked = New System.Windows.Forms.Label()
         Me.CheckBoxChecked = New System.Windows.Forms.Label()
+        Me.ComboBoxElement = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'ButtonElement
@@ -83,12 +84,23 @@ Partial Class ElementGallery
         Me.CheckBoxChecked.Text = "Checked"
         Me.CheckBoxChecked.Visible = False
         '
+        'ComboBoxElement
+        '
+        Me.ComboBoxElement.FormattingEnabled = True
+        Me.ComboBoxElement.Items.AddRange(New Object() {"Option 1", "Option 2", "Option 3"})
+        Me.ComboBoxElement.Location = New System.Drawing.Point(239, 46)
+        Me.ComboBoxElement.Name = "ComboBoxElement"
+        Me.ComboBoxElement.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBoxElement.TabIndex = 5
+        Me.ComboBoxElement.Text = "Select"
+        '
         'ElementGallery
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(608, 411)
+        Me.Controls.Add(Me.ComboBoxElement)
         Me.Controls.Add(Me.CheckBoxChecked)
         Me.Controls.Add(Me.CheckBoxUnchecked)
         Me.Controls.Add(Me.CheckBoxElement)
@@ -108,4 +120,5 @@ Partial Class ElementGallery
     Friend WithEvents CheckBoxElement As CheckBox
     Friend WithEvents CheckBoxUnchecked As Label
     Friend WithEvents CheckBoxChecked As Label
+    Friend WithEvents ComboBoxElement As ComboBox
 End Class
