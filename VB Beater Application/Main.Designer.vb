@@ -25,6 +25,9 @@ Partial Class Main
         Me.WelcomeTitle = New System.Windows.Forms.Label()
         Me.WelcomeSubtitle = New System.Windows.Forms.Label()
         Me.InfoButton = New System.Windows.Forms.Button()
+        Me.MenuPanel = New System.Windows.Forms.Panel()
+        Me.SectionsPanel = New System.Windows.Forms.TableLayoutPanel()
+        Me.MenuPanel.SuspendLayout()
         Me.SuspendLayout()
         '
         'WelcomeTitle
@@ -52,14 +55,46 @@ Partial Class Main
         '
         'InfoButton
         '
-        Me.InfoButton.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.InfoButton.BackColor = System.Drawing.Color.WhiteSmoke
         Me.InfoButton.CausesValidation = False
-        Me.InfoButton.Location = New System.Drawing.Point(0, 407)
+        Me.InfoButton.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke
+        Me.InfoButton.FlatAppearance.BorderSize = 0
+        Me.InfoButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver
+        Me.InfoButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.InfoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.InfoButton.Location = New System.Drawing.Point(0, 0)
         Me.InfoButton.Name = "InfoButton"
-        Me.InfoButton.Size = New System.Drawing.Size(23, 23)
+        Me.InfoButton.Size = New System.Drawing.Size(25, 25)
         Me.InfoButton.TabIndex = 4
         Me.InfoButton.Text = "i"
         Me.InfoButton.UseVisualStyleBackColor = False
+        '
+        'MenuPanel
+        '
+        Me.MenuPanel.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.MenuPanel.Controls.Add(Me.InfoButton)
+        Me.MenuPanel.Location = New System.Drawing.Point(-1, 405)
+        Me.MenuPanel.Name = "MenuPanel"
+        Me.MenuPanel.Size = New System.Drawing.Size(758, 26)
+        Me.MenuPanel.TabIndex = 5
+        '
+        'SectionsPanel
+        '
+        Me.SectionsPanel.ColumnCount = 4
+        Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.SectionsPanel.Location = New System.Drawing.Point(12, 79)
+        Me.SectionsPanel.Name = "SectionsPanel"
+        Me.SectionsPanel.RowCount = 5
+        Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.SectionsPanel.Size = New System.Drawing.Size(732, 320)
+        Me.SectionsPanel.TabIndex = 6
         '
         'Main
         '
@@ -67,13 +102,15 @@ Partial Class Main
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(756, 430)
-        Me.Controls.Add(Me.InfoButton)
+        Me.Controls.Add(Me.SectionsPanel)
+        Me.Controls.Add(Me.MenuPanel)
         Me.Controls.Add(Me.WelcomeSubtitle)
         Me.Controls.Add(Me.WelcomeTitle)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "Main"
         Me.Text = "VB Beater Application"
+        Me.MenuPanel.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -82,4 +119,6 @@ Partial Class Main
     Friend WithEvents WelcomeTitle As Label
     Friend WithEvents WelcomeSubtitle As Label
     Friend WithEvents InfoButton As Button
+    Friend WithEvents MenuPanel As Panel
+    Friend WithEvents SectionsPanel As TableLayoutPanel
 End Class
