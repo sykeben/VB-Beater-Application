@@ -83,7 +83,7 @@ Partial Class About
         Me.MinimizeBox = False
         Me.Name = "About"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "About"
+        Me.Text = "VB Beater App - About"
         CType(Me.UIKBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

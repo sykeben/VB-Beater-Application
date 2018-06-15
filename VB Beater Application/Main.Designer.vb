@@ -109,7 +109,7 @@ Partial Class Main
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "Main"
-        Me.Text = "VB Beater Application"
+        Me.Text = "VB Beater App - Main Window"
         Me.MenuPanel.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
