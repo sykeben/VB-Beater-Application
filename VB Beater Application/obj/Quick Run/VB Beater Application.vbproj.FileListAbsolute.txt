@@ -1,0 +1,10 @@
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\Quick Run\VB Beater Application.exe.config
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\Quick Run\VB Beater Application.exe
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB Beater Application.vbprojAssemblyReference.cache
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.Main.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.Resources.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB Beater Application.vbproj.GenerateResource.cache
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB Beater Application.vbproj.CoreCompileInputs.cache
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB Beater Application.exe
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.About.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.AboutRes.resources
