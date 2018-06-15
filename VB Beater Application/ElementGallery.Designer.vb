@@ -28,6 +28,9 @@ Partial Class ElementGallery
         Me.CheckBoxUnchecked = New System.Windows.Forms.Label()
         Me.CheckBoxChecked = New System.Windows.Forms.Label()
         Me.ComboBoxElement = New System.Windows.Forms.ComboBox()
+        Me.DateTimePickerElement = New System.Windows.Forms.DateTimePicker()
+        Me.LabelElement = New System.Windows.Forms.Label()
+        Me.LinkLabelElement = New System.Windows.Forms.LinkLabel()
         Me.SuspendLayout()
         '
         'ButtonElement
@@ -92,7 +95,33 @@ Partial Class ElementGallery
         Me.ComboBoxElement.Name = "ComboBoxElement"
         Me.ComboBoxElement.Size = New System.Drawing.Size(121, 21)
         Me.ComboBoxElement.TabIndex = 5
-        Me.ComboBoxElement.Text = "Select"
+        Me.ComboBoxElement.Text = "Combo Box"
+        '
+        'DateTimePickerElement
+        '
+        Me.DateTimePickerElement.Location = New System.Drawing.Point(366, 46)
+        Me.DateTimePickerElement.Name = "DateTimePickerElement"
+        Me.DateTimePickerElement.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePickerElement.TabIndex = 6
+        '
+        'LabelElement
+        '
+        Me.LabelElement.AutoSize = True
+        Me.LabelElement.Location = New System.Drawing.Point(12, 76)
+        Me.LabelElement.Name = "LabelElement"
+        Me.LabelElement.Size = New System.Drawing.Size(33, 13)
+        Me.LabelElement.TabIndex = 7
+        Me.LabelElement.Text = "Label"
+        '
+        'LinkLabelElement
+        '
+        Me.LinkLabelElement.AutoSize = True
+        Me.LinkLabelElement.Location = New System.Drawing.Point(52, 76)
+        Me.LinkLabelElement.Name = "LinkLabelElement"
+        Me.LinkLabelElement.Size = New System.Drawing.Size(56, 13)
+        Me.LinkLabelElement.TabIndex = 8
+        Me.LinkLabelElement.TabStop = True
+        Me.LinkLabelElement.Text = "Link Label"
         '
         'ElementGallery
         '
@@ -100,6 +129,9 @@ Partial Class ElementGallery
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(608, 411)
+        Me.Controls.Add(Me.LinkLabelElement)
+        Me.Controls.Add(Me.LabelElement)
+        Me.Controls.Add(Me.DateTimePickerElement)
         Me.Controls.Add(Me.ComboBoxElement)
         Me.Controls.Add(Me.CheckBoxChecked)
         Me.Controls.Add(Me.CheckBoxUnchecked)
@@ -121,4 +153,7 @@ Partial Class ElementGallery
     Friend WithEvents CheckBoxUnchecked As Label
     Friend WithEvents CheckBoxChecked As Label
     Friend WithEvents ComboBoxElement As ComboBox
+    Friend WithEvents DateTimePickerElement As DateTimePicker
+    Friend WithEvents LabelElement As Label
+    Friend WithEvents LinkLabelElement As LinkLabel
 End Class
