@@ -24,6 +24,9 @@ Partial Class ElementGallery
     Private Sub InitializeComponent()
         Me.ButtonElement = New System.Windows.Forms.Button()
         Me.Title = New System.Windows.Forms.Label()
+        Me.CheckBoxElement = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxUnchecked = New System.Windows.Forms.Label()
+        Me.CheckBoxChecked = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'ButtonElement
@@ -46,12 +49,49 @@ Partial Class ElementGallery
         Me.Title.TabIndex = 1
         Me.Title.Text = "Element Gallery + Demo(s)"
         '
+        'CheckBoxElement
+        '
+        Me.CheckBoxElement.AutoSize = True
+        Me.CheckBoxElement.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBoxElement.Location = New System.Drawing.Point(93, 50)
+        Me.CheckBoxElement.Name = "CheckBoxElement"
+        Me.CheckBoxElement.Size = New System.Drawing.Size(81, 17)
+        Me.CheckBoxElement.TabIndex = 2
+        Me.CheckBoxElement.Text = "Check Box:"
+        Me.CheckBoxElement.UseVisualStyleBackColor = False
+        '
+        'CheckBoxUnchecked
+        '
+        Me.CheckBoxUnchecked.AutoSize = True
+        Me.CheckBoxUnchecked.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBoxUnchecked.ForeColor = System.Drawing.Color.DarkRed
+        Me.CheckBoxUnchecked.Location = New System.Drawing.Point(170, 51)
+        Me.CheckBoxUnchecked.Name = "CheckBoxUnchecked"
+        Me.CheckBoxUnchecked.Size = New System.Drawing.Size(63, 13)
+        Me.CheckBoxUnchecked.TabIndex = 3
+        Me.CheckBoxUnchecked.Text = "Unchecked"
+        '
+        'CheckBoxChecked
+        '
+        Me.CheckBoxChecked.AutoSize = True
+        Me.CheckBoxChecked.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBoxChecked.ForeColor = System.Drawing.Color.DarkGreen
+        Me.CheckBoxChecked.Location = New System.Drawing.Point(170, 51)
+        Me.CheckBoxChecked.Name = "CheckBoxChecked"
+        Me.CheckBoxChecked.Size = New System.Drawing.Size(50, 13)
+        Me.CheckBoxChecked.TabIndex = 4
+        Me.CheckBoxChecked.Text = "Checked"
+        Me.CheckBoxChecked.Visible = False
+        '
         'ElementGallery
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(608, 411)
+        Me.Controls.Add(Me.CheckBoxChecked)
+        Me.Controls.Add(Me.CheckBoxUnchecked)
+        Me.Controls.Add(Me.CheckBoxElement)
         Me.Controls.Add(Me.Title)
         Me.Controls.Add(Me.ButtonElement)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
@@ -65,4 +105,7 @@ Partial Class ElementGallery
 
     Friend WithEvents ButtonElement As Button
     Friend WithEvents Title As Label
+    Friend WithEvents CheckBoxElement As CheckBox
+    Friend WithEvents CheckBoxUnchecked As Label
+    Friend WithEvents CheckBoxChecked As Label
 End Class
