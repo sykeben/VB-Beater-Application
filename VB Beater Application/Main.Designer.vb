@@ -27,7 +27,10 @@ Partial Class Main
         Me.InfoButton = New System.Windows.Forms.Button()
         Me.MenuPanel = New System.Windows.Forms.Panel()
         Me.SectionsPanel = New System.Windows.Forms.TableLayoutPanel()
+        Me.LaunchElementGallery = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuPanel.SuspendLayout()
+        Me.SectionsPanel.SuspendLayout()
         Me.SuspendLayout()
         '
         'WelcomeTitle
@@ -86,7 +89,8 @@ Partial Class Main
         Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.SectionsPanel.Location = New System.Drawing.Point(12, 79)
+        Me.SectionsPanel.Controls.Add(Me.LaunchElementGallery, 0, 0)
+        Me.SectionsPanel.Location = New System.Drawing.Point(12, 109)
         Me.SectionsPanel.Name = "SectionsPanel"
         Me.SectionsPanel.RowCount = 5
         Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
@@ -94,8 +98,27 @@ Partial Class Main
         Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.SectionsPanel.Size = New System.Drawing.Size(732, 320)
+        Me.SectionsPanel.Size = New System.Drawing.Size(732, 290)
         Me.SectionsPanel.TabIndex = 6
+        '
+        'LaunchElementGallery
+        '
+        Me.LaunchElementGallery.Location = New System.Drawing.Point(3, 3)
+        Me.LaunchElementGallery.Name = "LaunchElementGallery"
+        Me.LaunchElementGallery.Size = New System.Drawing.Size(140, 52)
+        Me.LaunchElementGallery.TabIndex = 0
+        Me.LaunchElementGallery.Text = "Element" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Gallery"
+        Me.LaunchElementGallery.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(12, 93)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Launchers:"
         '
         'Main
         '
@@ -103,6 +126,7 @@ Partial Class Main
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(756, 430)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.SectionsPanel)
         Me.Controls.Add(Me.MenuPanel)
         Me.Controls.Add(Me.WelcomeSubtitle)
@@ -112,6 +136,7 @@ Partial Class Main
         Me.Name = "Main"
         Me.Text = "VB Beater App - Main Window"
         Me.MenuPanel.ResumeLayout(False)
+        Me.SectionsPanel.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -122,4 +147,6 @@ Partial Class Main
     Friend WithEvents InfoButton As Button
     Friend WithEvents MenuPanel As Panel
     Friend WithEvents SectionsPanel As TableLayoutPanel
+    Friend WithEvents LaunchElementGallery As Button
+    Friend WithEvents Label1 As Label
 End Class
