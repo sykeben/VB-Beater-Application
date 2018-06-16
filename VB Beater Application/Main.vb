@@ -6,4 +6,8 @@
     Private Sub LaunchElementGallery_Click(sender As Object, e As EventArgs) Handles LaunchElementGallery.Click
         ElementGallery.Show()
     End Sub
+
+    Private Sub LaunchBasicBrowser_Click(sender As Object, e As EventArgs) Handles LaunchBasicBrowser.Click
+        BasicBrowser.Show()
+    End Sub
 End Class

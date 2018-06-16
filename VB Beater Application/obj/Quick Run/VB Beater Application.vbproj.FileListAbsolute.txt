@@ -9,3 +9,8 @@ C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quic
 C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.About.resources
 C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.AboutRes.resources
 C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.ElementGallery.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\Quick Run\VB Beater Application.exe.manifest
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\Quick Run\VB Beater Application.application
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.BasicBrowser.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB Beater Application.exe.manifest
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB Beater Application.application

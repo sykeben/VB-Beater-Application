@@ -29,6 +29,7 @@ Partial Class Main
         Me.SectionsPanel = New System.Windows.Forms.TableLayoutPanel()
         Me.LaunchElementGallery = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.LaunchBasicBrowser = New System.Windows.Forms.Button()
         Me.MenuPanel.SuspendLayout()
         Me.SectionsPanel.SuspendLayout()
         Me.SuspendLayout()
@@ -90,6 +91,7 @@ Partial Class Main
         Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.Controls.Add(Me.LaunchElementGallery, 0, 0)
+        Me.SectionsPanel.Controls.Add(Me.LaunchBasicBrowser, 1, 0)
         Me.SectionsPanel.Location = New System.Drawing.Point(12, 104)
         Me.SectionsPanel.Name = "SectionsPanel"
         Me.SectionsPanel.RowCount = 5
@@ -121,6 +123,15 @@ Partial Class Main
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Launchers:"
         '
+        'LaunchBasicBrowser
+        '
+        Me.LaunchBasicBrowser.Location = New System.Drawing.Point(98, 3)
+        Me.LaunchBasicBrowser.Name = "LaunchBasicBrowser"
+        Me.LaunchBasicBrowser.Size = New System.Drawing.Size(89, 38)
+        Me.LaunchBasicBrowser.TabIndex = 1
+        Me.LaunchBasicBrowser.Text = "Basic" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Browser"
+        Me.LaunchBasicBrowser.UseVisualStyleBackColor = True
+        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -150,4 +161,5 @@ Partial Class Main
     Friend WithEvents SectionsPanel As TableLayoutPanel
     Friend WithEvents LaunchElementGallery As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents LaunchBasicBrowser As Button
 End Class

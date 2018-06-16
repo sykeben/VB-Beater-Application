@@ -165,6 +165,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AboutRes.resx</DependentUpon>
     </Compile>
+    <Compile Include="BasicBrowser.Designer.vb">
+      <DependentUpon>BasicBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasicBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ElementGallery.Designer.vb">
       <DependentUpon>ElementGallery.vb</DependentUpon>
     </Compile>
@@ -197,6 +203,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AboutRes.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicBrowser.resx">
+      <DependentUpon>BasicBrowser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ElementGallery.resx">
       <DependentUpon>ElementGallery.vb</DependentUpon>
