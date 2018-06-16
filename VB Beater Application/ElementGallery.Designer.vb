@@ -154,7 +154,7 @@ Partial Class ElementGallery
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.Name = "ElementGallery"
-        Me.Text = "Element Gallery"
+        Me.Text = "VB Beater App - Element Gallery"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
