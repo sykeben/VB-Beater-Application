@@ -13,3 +13,7 @@ C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Rele
 C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Release\VB Beater Application.exe
 C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Release\VB Beater Application.xml
 C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Release\VB Beater Application.pdb
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\Release\VB Beater Application.exe.manifest
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\Release\VB Beater Application.application
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Release\VB Beater Application.exe.manifest
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Release\VB Beater Application.application
