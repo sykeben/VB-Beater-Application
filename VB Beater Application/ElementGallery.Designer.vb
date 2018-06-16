@@ -31,6 +31,7 @@ Partial Class ElementGallery
         Me.DateTimePickerElement = New System.Windows.Forms.DateTimePicker()
         Me.LabelElement = New System.Windows.Forms.Label()
         Me.LinkLabelElement = New System.Windows.Forms.LinkLabel()
+        Me.MoreSoonLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'ButtonElement
@@ -123,12 +124,24 @@ Partial Class ElementGallery
         Me.LinkLabelElement.TabStop = True
         Me.LinkLabelElement.Text = "Link Label"
         '
+        'MoreSoonLabel
+        '
+        Me.MoreSoonLabel.AutoSize = True
+        Me.MoreSoonLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MoreSoonLabel.Location = New System.Drawing.Point(477, 92)
+        Me.MoreSoonLabel.Name = "MoreSoonLabel"
+        Me.MoreSoonLabel.Size = New System.Drawing.Size(103, 13)
+        Me.MoreSoonLabel.TabIndex = 9
+        Me.MoreSoonLabel.Text = "More coming soon..."
+        Me.MoreSoonLabel.TextAlign = System.Drawing.ContentAlignment.BottomRight
+        '
         'ElementGallery
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(583, 108)
+        Me.Controls.Add(Me.MoreSoonLabel)
         Me.Controls.Add(Me.LinkLabelElement)
         Me.Controls.Add(Me.LabelElement)
         Me.Controls.Add(Me.DateTimePickerElement)
@@ -156,4 +169,5 @@ Partial Class ElementGallery
     Friend WithEvents DateTimePickerElement As DateTimePicker
     Friend WithEvents LabelElement As Label
     Friend WithEvents LinkLabelElement As LinkLabel
+    Friend WithEvents MoreSoonLabel As Label
 End Class

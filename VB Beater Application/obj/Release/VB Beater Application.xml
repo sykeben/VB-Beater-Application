@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VB Beater Application
+</name>
+</assembly>
+<members>
+<member name="T:VB_Beater_Application.My.Resources.AboutRes">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:VB_Beater_Application.My.Resources.AboutRes.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:VB_Beater_Application.My.Resources.AboutRes.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:VB_Beater_Application.My.Resources.AboutRes.UIK">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
