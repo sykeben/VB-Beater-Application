@@ -1,0 +1,14 @@
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\x64\Last_x64\VB Beater Application.exe.config
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\x64\Last_x64\VB Beater Application.exe.manifest
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\x64\Last_x64\VB Beater Application.application
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\x64\Last_x64\VB Beater Application.exe
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB_Beater_Application.About.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB_Beater_Application.AboutRes.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB_Beater_Application.ElementGallery.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB_Beater_Application.Main.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB_Beater_Application.Resources.resources
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB Beater Application.vbproj.GenerateResource.cache
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB Beater Application.vbproj.CoreCompileInputs.cache
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB Beater Application.exe.manifest
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB Beater Application.application
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\x64\Last_x64\VB Beater Application.exe
