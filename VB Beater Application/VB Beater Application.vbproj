@@ -177,6 +177,12 @@
     <Compile Include="ElementGallery.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GraphThing.Designer.vb">
+      <DependentUpon>GraphThing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GraphThing.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Main.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -209,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ElementGallery.resx">
       <DependentUpon>ElementGallery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphThing.resx">
+      <DependentUpon>GraphThing.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>

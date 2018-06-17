@@ -33,6 +33,7 @@ Partial Class Main
         Me.LaunchersTab = New System.Windows.Forms.TabPage()
         Me.LinksTab = New System.Windows.Forms.TabPage()
         Me.GitHubPageLink = New System.Windows.Forms.LinkLabel()
+        Me.LaunchGraphThing = New System.Windows.Forms.Button()
         Me.MenuPanel.SuspendLayout()
         Me.SectionsPanel.SuspendLayout()
         Me.MainTabs.SuspendLayout()
@@ -99,6 +100,7 @@ Partial Class Main
         Me.SectionsPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.SectionsPanel.Controls.Add(Me.LaunchElementGallery, 0, 0)
         Me.SectionsPanel.Controls.Add(Me.LaunchBasicBrowser, 1, 0)
+        Me.SectionsPanel.Controls.Add(Me.LaunchGraphThing, 2, 0)
         Me.SectionsPanel.Location = New System.Drawing.Point(0, 0)
         Me.SectionsPanel.Name = "SectionsPanel"
         Me.SectionsPanel.RowCount = 5
@@ -169,6 +171,15 @@ Partial Class Main
         Me.GitHubPageLink.TabStop = True
         Me.GitHubPageLink.Text = "My GitHub Page"
         '
+        'LaunchGraphThing
+        '
+        Me.LaunchGraphThing.Location = New System.Drawing.Point(189, 3)
+        Me.LaunchGraphThing.Name = "LaunchGraphThing"
+        Me.LaunchGraphThing.Size = New System.Drawing.Size(87, 41)
+        Me.LaunchGraphThing.TabIndex = 2
+        Me.LaunchGraphThing.Text = "Graph" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Thing"
+        Me.LaunchGraphThing.UseVisualStyleBackColor = True
+        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -205,4 +216,5 @@ Partial Class Main
     Friend WithEvents LaunchersTab As TabPage
     Friend WithEvents LinksTab As TabPage
     Friend WithEvents GitHubPageLink As LinkLabel
+    Friend WithEvents LaunchGraphThing As Button
 End Class

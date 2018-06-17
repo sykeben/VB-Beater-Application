@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VB Beater Application.exe" size="40928">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VB Beater Application.exe" size="43488">
       <assemblyIdentity name="VB Beater Application" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4okto91eqWQW8rvnfb5SACqeNbgQN5koY8yctKaQsmE=</dsig:DigestValue>
+        <dsig:DigestValue>P9rP2rePwOyTmOCxaVhvwYj+hR0m3Hwbku1jSiymU10=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -14,3 +14,4 @@ C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\bin\Quic
 C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.BasicBrowser.resources
 C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB Beater Application.exe.manifest
 C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB Beater Application.application
+C:\Users\thatg\source\repos\VB Beater Application\VB Beater Application\obj\Quick Run\VB_Beater_Application.GraphThing.resources

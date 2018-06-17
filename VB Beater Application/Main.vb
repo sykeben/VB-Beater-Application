@@ -31,4 +31,8 @@
     Private Sub GitHubPageLink_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles GitHubPageLink.LinkClicked
         NavigateWebURL("https://sykeben.github.io/")
     End Sub
+
+    Private Sub LaunchGraphThing_Click(sender As Object, e As EventArgs) Handles LaunchGraphThing.Click
+        GraphThing.Show()
+    End Sub
 End Class
